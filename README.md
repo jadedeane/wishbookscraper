@@ -1,9 +1,13 @@
-# wishbookscraper
-Simple script that scrapes http://www.wishbookweb.com Christmas "wish book" catalog archives, and saves catalog page images.
 
-Useage:
+# wishbookscraper
+
+![](wishbook.png?raw=true "")
+
+Simple application that scrapes [WishbookWeb's](http://www.wishbookweb.com) Christmas catalog archives, and saves page images.
+
+Usage:
 ```text
-python scraper.py 
+python scraper.py
 ```
 
-The script (is lazy) and assumes catalog published years are 1937 through present.
+[scraper.py](scraper.py) is pre-populated with store catalogs, and their names along with year ranges as found on the site.
